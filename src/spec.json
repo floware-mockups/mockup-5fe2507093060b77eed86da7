@@ -1,0 +1,459 @@
+{
+  "title": "Gestione pratiche antincendio scolastiche",
+  "description": "Registro delle pratiche, delle attività da completare, dei lavori e delle scadenze per edifici scolastici inventati. Gli avvisi sono promemoria organizzativi: verificare sempre requisiti e scadenze con gli uffici competenti.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Riepilogo delle pratiche e delle attività più vicine.",
+      "metrics": [
+        {
+          "label": "Pratiche in istruttoria",
+          "value": "6"
+        },
+        {
+          "label": "Sopralluoghi della settimana",
+          "value": "3"
+        },
+        {
+          "label": "Cantieri aperti",
+          "value": "2"
+        },
+        {
+          "label": "Segnalazioni da chiudere",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Edificio",
+        "Attività",
+        "Prossima scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PR-2026-014",
+          "Scuola Lumo",
+          "Scuola",
+          "18/06/2026",
+          "In istruttoria"
+        ],
+        [
+          "PR-2026-011",
+          "Scuola Vela",
+          "Centrale termica",
+          "20/06/2026",
+          "Sopralluogo fissato"
+        ],
+        [
+          "PR-2026-009",
+          "Scuola Nubi",
+          "Palestra",
+          "24/06/2026",
+          "Lavori aperti"
+        ],
+        [
+          "PR-2026-007",
+          "Scuola Brina",
+          "Auditorium",
+          "30/06/2026",
+          "Da chiudere"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-pratiche",
+      "title": "Registro pratiche",
+      "description": "Cerca le pratiche e filtra l'elenco per stato. Le attività possono comprendere scuola, centrale termica, archivio, auditorium e palestra.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Edificio",
+        "Indirizzo",
+        "Attività",
+        "Tipo intervento",
+        "Tecnico incaricato",
+        "Data sopralluogo",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PR-2026-014",
+          "Scuola Lumo",
+          "Via delle Felci 12, Borgo Nembi",
+          "Scuola",
+          "Nuova segnalazione",
+          "T. Varen",
+          "18/06/2026",
+          "In istruttoria"
+        ],
+        [
+          "PR-2026-013",
+          "Scuola Lumo",
+          "Via delle Felci 12, Borgo Nembi",
+          "Archivio",
+          "Adeguamento",
+          "M. Selvi",
+          "17/06/2026",
+          "Documenti da completare"
+        ],
+        [
+          "PR-2026-011",
+          "Scuola Vela",
+          "Piazza dei Gelsi 4, Valdombra",
+          "Centrale termica",
+          "Rinnovo segnalazione",
+          "R. Neral",
+          "20/06/2026",
+          "Sopralluogo fissato"
+        ],
+        [
+          "PR-2026-010",
+          "Scuola Vela",
+          "Piazza dei Gelsi 4, Valdombra",
+          "Auditorium",
+          "Adeguamento",
+          "T. Varen",
+          "12/06/2026",
+          "Lavori aperti"
+        ],
+        [
+          "PR-2026-009",
+          "Scuola Nubi",
+          "Vicolo delle Lanterne 8, Pianlieve",
+          "Palestra",
+          "Nuova segnalazione",
+          "M. Selvi",
+          "24/06/2026",
+          "Lavori aperti"
+        ],
+        [
+          "PR-2026-008",
+          "Scuola Nubi",
+          "Vicolo delle Lanterne 8, Pianlieve",
+          "Scuola",
+          "Rinnovo segnalazione",
+          "R. Neral",
+          "10/06/2026",
+          "In istruttoria"
+        ],
+        [
+          "PR-2026-007",
+          "Scuola Brina",
+          "Via dei Salici 21, Fontechiara",
+          "Auditorium",
+          "Rinnovo segnalazione",
+          "T. Varen",
+          "30/06/2026",
+          "Da chiudere"
+        ],
+        [
+          "PR-2026-006",
+          "Scuola Brina",
+          "Via dei Salici 21, Fontechiara",
+          "Centrale termica",
+          "Adeguamento",
+          "M. Selvi",
+          "16/06/2026",
+          "Sopralluogo fissato"
+        ],
+        [
+          "PR-2026-005",
+          "Scuola Rugiada",
+          "Largo delle More 3, Selvariva",
+          "Archivio",
+          "Nuova segnalazione",
+          "R. Neral",
+          "25/06/2026",
+          "Documenti da completare"
+        ],
+        [
+          "PR-2026-004",
+          "Scuola Rugiada",
+          "Largo delle More 3, Selvariva",
+          "Palestra",
+          "Rinnovo segnalazione",
+          "T. Varen",
+          "11/06/2026",
+          "Da chiudere"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Edificio",
+        "Indirizzo",
+        "Attività",
+        "Tipo intervento",
+        "Tecnico incaricato",
+        "Data sopralluogo",
+        "Stato"
+      ]
+    },
+    {
+      "id": "attivita-e-lavori",
+      "title": "Attività e lavori",
+      "description": "Tieni traccia delle fasi previste, di quelle concluse e dei lavori ancora da fare per ciascuna pratica.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Edificio",
+        "Attività",
+        "Fase",
+        "Lavoro da realizzare",
+        "Completata",
+        "Data prevista"
+      ],
+      "rows": [
+        [
+          "PR-2026-014",
+          "Scuola Lumo",
+          "Scuola",
+          "Raccolta dati edificio",
+          "Verificare planimetrie e presidi",
+          "No",
+          "16/06/2026"
+        ],
+        [
+          "PR-2026-014",
+          "Scuola Lumo",
+          "Scuola",
+          "Sopralluogo",
+          "Controllare vie di uscita",
+          "No",
+          "18/06/2026"
+        ],
+        [
+          "PR-2026-014",
+          "Scuola Lumo",
+          "Scuola",
+          "Preparazione segnalazione",
+          "Raccogliere gli esiti dei controlli",
+          "No",
+          "23/06/2026"
+        ],
+        [
+          "PR-2026-013",
+          "Scuola Lumo",
+          "Archivio",
+          "Verifica documenti",
+          "Completare l'elenco delle misure presenti",
+          "No",
+          "17/06/2026"
+        ],
+        [
+          "PR-2026-013",
+          "Scuola Lumo",
+          "Archivio",
+          "Raccolta dati edificio",
+          "Acquisire la planimetria aggiornata",
+          "Sì",
+          "12/06/2026"
+        ],
+        [
+          "PR-2026-011",
+          "Scuola Vela",
+          "Centrale termica",
+          "Sopralluogo",
+          "Controllare accesso e segnaletica",
+          "No",
+          "20/06/2026"
+        ],
+        [
+          "PR-2026-011",
+          "Scuola Vela",
+          "Centrale termica",
+          "Preparazione segnalazione",
+          "Raccogliere esito delle verifiche",
+          "No",
+          "26/06/2026"
+        ],
+        [
+          "PR-2026-010",
+          "Scuola Vela",
+          "Auditorium",
+          "Lavori",
+          "Completare le indicazioni delle uscite",
+          "No",
+          "22/06/2026"
+        ],
+        [
+          "PR-2026-010",
+          "Scuola Vela",
+          "Auditorium",
+          "Sopralluogo",
+          "Verificare la fine dei lavori",
+          "Sì",
+          "12/06/2026"
+        ],
+        [
+          "PR-2026-009",
+          "Scuola Nubi",
+          "Palestra",
+          "Lavori",
+          "Ripristinare la segnaletica interna",
+          "No",
+          "21/06/2026"
+        ],
+        [
+          "PR-2026-009",
+          "Scuola Nubi",
+          "Palestra",
+          "Raccolta dati edificio",
+          "Aggiornare l'elenco dei presidi",
+          "Sì",
+          "10/06/2026"
+        ],
+        [
+          "PR-2026-007",
+          "Scuola Brina",
+          "Auditorium",
+          "Chiusura segnalazione",
+          "Raccogliere le ultime conferme",
+          "No",
+          "30/06/2026"
+        ],
+        [
+          "PR-2026-006",
+          "Scuola Brina",
+          "Centrale termica",
+          "Sopralluogo",
+          "Controllare le opere completate",
+          "No",
+          "16/06/2026"
+        ],
+        [
+          "PR-2026-005",
+          "Scuola Rugiada",
+          "Archivio",
+          "Preparazione segnalazione",
+          "Completare la documentazione di pratica",
+          "No",
+          "25/06/2026"
+        ],
+        [
+          "PR-2026-004",
+          "Scuola Rugiada",
+          "Palestra",
+          "Chiusura segnalazione",
+          "Confermare l'esito delle attività",
+          "No",
+          "11/06/2026"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Edificio",
+        "Attività",
+        "Fase",
+        "Lavoro da realizzare",
+        "Completata",
+        "Data prevista"
+      ]
+    },
+    {
+      "id": "scadenze",
+      "title": "Scadenze e avvisi",
+      "description": "Consulta le date da tenere d'occhio e registra promemoria per le pratiche. Le scadenze indicate sono inventate e vanno verificate prima dell'uso.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Edificio",
+        "Attività",
+        "Scadenza",
+        "Avviso",
+        "Responsabile",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PR-2026-014",
+          "Scuola Lumo",
+          "Scuola",
+          "18/06/2026",
+          "Promemoria a 7 giorni",
+          "T. Varen",
+          "Da seguire"
+        ],
+        [
+          "PR-2026-013",
+          "Scuola Lumo",
+          "Archivio",
+          "17/06/2026",
+          "Richiedere documento mancante",
+          "M. Selvi",
+          "Da seguire"
+        ],
+        [
+          "PR-2026-011",
+          "Scuola Vela",
+          "Centrale termica",
+          "20/06/2026",
+          "Confermare sopralluogo",
+          "R. Neral",
+          "Programmato"
+        ],
+        [
+          "PR-2026-010",
+          "Scuola Vela",
+          "Auditorium",
+          "22/06/2026",
+          "Verificare fine lavori",
+          "T. Varen",
+          "Da seguire"
+        ],
+        [
+          "PR-2026-009",
+          "Scuola Nubi",
+          "Palestra",
+          "21/06/2026",
+          "Controllare segnaletica",
+          "M. Selvi",
+          "Da seguire"
+        ],
+        [
+          "PR-2026-007",
+          "Scuola Brina",
+          "Auditorium",
+          "30/06/2026",
+          "Promemoria chiusura pratica",
+          "T. Varen",
+          "Programmato"
+        ],
+        [
+          "PR-2026-006",
+          "Scuola Brina",
+          "Centrale termica",
+          "16/06/2026",
+          "Confermare esito sopralluogo",
+          "M. Selvi",
+          "Da seguire"
+        ],
+        [
+          "PR-2026-005",
+          "Scuola Rugiada",
+          "Archivio",
+          "25/06/2026",
+          "Completare documenti",
+          "R. Neral",
+          "Programmato"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Edificio",
+        "Attività",
+        "Scadenza",
+        "Avviso",
+        "Responsabile",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "terracotta",
+    "fonts": "classico"
+  }
+}
