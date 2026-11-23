@@ -450,6 +450,80 @@
         "Responsabile",
         "Stato"
       ]
+    },
+    {
+      "id": "anagrafe-edifici",
+      "title": "Anagrafe edifici",
+      "description": "Indirizzi e dati identificativi degli edifici scolastici.",
+      "metrics": [
+        {
+          "label": "Edifici censiti",
+          "value": "6"
+        },
+        {
+          "label": "Da verificare",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Indirizzo",
+        "Città",
+        "Tipologia",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scuola Lumo",
+          "Via delle Felci 12",
+          "Borgo Nembi",
+          "Scuola primaria",
+          "Attivo"
+        ],
+        [
+          "Scuola Vela",
+          "Piazza dei Gelsi 4",
+          "Valdombra",
+          "Scuola secondaria",
+          "Attivo"
+        ],
+        [
+          "Scuola Nubi",
+          "Vicolo delle Lanterne 8",
+          "Pianlieve",
+          "Scuola primaria",
+          "Attivo"
+        ],
+        [
+          "Scuola Brina",
+          "Via dei Salici 21",
+          "Fontechiara",
+          "Scuola secondaria",
+          "Attivo"
+        ],
+        [
+          "Scuola Rugiada",
+          "Largo delle More 3",
+          "Selvariva",
+          "Scuola primaria",
+          "Da verificare"
+        ],
+        [
+          "Scuola Quercia",
+          "Via del Torrente 6",
+          "Pietracalma",
+          "Scuola dell'infanzia",
+          "Attivo"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Indirizzo",
+        "Città",
+        "Tipologia",
+        "Stato"
+      ],
+      "statusColumn": 4
     }
   ],
   "theme": {
